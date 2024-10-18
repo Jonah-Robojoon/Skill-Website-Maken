@@ -1,0 +1,158 @@
+body{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 0px;
+    margin-left: 0px;
+    fill: black;
+    background: darkblue;
+}
+
+#Center-Pic{
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+
+.Center-Pic{
+    vertical-align: bottom;
+    height: auto;
+    text-align: center;
+    outline: black; 
+    width: 80%;
+    margin:auto;
+    border: 5px solid black;
+    border-bottom: 2px;
+    border-radius:30px 30px 0px 0px;
+}
+
+#Text{
+    align-self: center;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+.Text{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#normal-text{
+    position: relative; 
+    background-image: linear-gradient(rgb(43, 0, 119), rgb(93, 0, 255), rgb(93, 0, 255), rgb(93, 0, 255));
+    text-align: center;
+    width: 70%;
+    margin:auto;
+    border: 5px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius:0px 0px 30px 30px;
+    margin-top: -4px;   
+}
+
+#main-tile{
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right, gray , white, white, white, white, white, white, white, gray);
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 50px;
+    width: 90%;
+}
+
+#bold{
+    font: bold;
+    font-size: 120%;
+}
+
+.left-title{
+    position: relative;
+    background-image: linear-gradient(to left, rgb(0, 69, 94), rgb(0, 146, 199), rgb(0, 146, 199), rgb(0, 146, 199));
+    width: 40%;
+    height: auto;
+    text-align: right;
+    padding-right: 5px;
+    border-left: 50px;
+    border: 5px solid black;
+    border-radius:30px 0px 0px 60px;
+    margin-top: 20px;  
+    margin-left: auto;  
+    margin-right: 0;
+}
+
+
+#right-title{
+    position: relative;
+    background-image: linear-gradient(to right, rgb(0, 69, 94), rgb(0, 146, 199), rgb(0, 146, 199), rgb(0, 146, 199));
+    width: 40%;
+    height: auto;
+    text-align: left;
+    padding-left: 5px;
+    border-right: 50px;
+    border: 5px solid black;
+    border-radius: 0px 30px 60px 0px;
+    margin-top: -190px;  
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.video-tags{
+        position: relative;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        background-image: linear-gradient(to right, rgb(0, 69, 94), rgb(0, 146, 199), rgb(0, 146, 199), rgb(0, 146, 199));
+        border-radius: 20px 20px 60px 60px;
+        border: 5px solid black;
+}
+a{
+    color: black;
+}
+
+body>article>figure>img:hover{
+    transform: scale(1.05);
+    margin-bottom: 0.5%;
+}
+
+#right-title:hover{
+    transform: scale(1.02);
+    margin-left: 0.4%;
+}
+
+.left-title:hover{
+    transform: scale(1.02);
+    margin-right: 0.4%;
+}
+
+header, footer{
+    background: rgb(0, 0, 71);
+    color: white;
+    height: 60px;
+    flex: auto;
+    position: relative;
+    text-align: center;
+}
+
+footer{
+    background: rgb(0, 0, 71);
+    color: white;
+    height: 60px;
+    text-align: center;
+}
+
+video{
+    width: 95%;
+}
+
+@media screen AND (max-width: 600px) {
+    #right-title{
+        margin-top: 0px;
+        padding-right: 50px;
+        width: 80%;
+    }
+
+    .left-title{
+        margin-top: 5px;
+        padding-left: 50px;
+        width: 80%;
+    }
+}
